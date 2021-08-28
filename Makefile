@@ -2,12 +2,13 @@
 CC = gcc
 SRC_DIR = src
 OBJ_DIR = target
-CFLAGS = $(shell pkg-config --cflags gtk+-3.0) -Wall
-LDFLAGS = $(shell pkg-config --libs gtk+-3.0)
-EXE = mini
+GTK=gtk4
+CFLAGS = $(shell pkg-config --cflags $(GTK)) -Wall
+LDFLAGS = $(shell pkg-config --libs $(GTK))
+EXE = main
 
-SRCS = $(SRC_DIR)/mini.c
-OBJS = $(OBJ_DIR)/mini.o
+SRCS = $(SRC_DIR)/main.cpp
+OBJS = $(OBJ_DIR)/main.o
 
 all: $(EXE)
 
@@ -17,7 +18,7 @@ $(OBJ_DIR):
 $(EXE): $(OBJS)
 	$(CC) $(OBJS) $(LDFLAGS) -o $(EXE)
 
-$(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
+$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
 	@if [ ! -d $(OBJ_DIR) ]; \
 		then mkdir -p $(OBJ_DIR); \
 	fi
