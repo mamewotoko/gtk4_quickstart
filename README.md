@@ -6,22 +6,22 @@ Prepare
 
 install GTK
 
-```
-sh setup.sh
+```bash
+./setup.sh
 ```
 
 Build
 ------
 
-```
+```bash
 make
 ```
 
 Run
 ----
 
-```
-./mini
+```bash
+./main
 ```
 
 ----
