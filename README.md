@@ -1,4 +1,4 @@
-GTK quickstart [![Build Status](https://travis-ci.com/mamewotoko/gtk_quickstart.svg?branch=master)](https://travis-ci.com/mamewotoko/gtk_quickstart)
+GTK quickstart [![Build Status](https://travis-ci.com/mamewotoko/gtk4_quickstart.svg?branch=master)](https://travis-ci.com/mamewotoko/gtk_quickstart)
 =====================================================
 
 Prepare
