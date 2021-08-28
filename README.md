@@ -1,4 +1,4 @@
-GTK quickstart [![Build Status](https://travis-ci.com/mamewotoko/gtk4_quickstart.svg?branch=master)](https://travis-ci.com/mamewotoko/gtk_quickstart)
+GTK4 quickstart [![CI on Mac](https://github.com/mamewotoko/gtk4_quickstart/actions/workflows/build_mac.yml/badge.svg)](https://github.com/mamewotoko/gtk4_quickstart/actions/workflows/build_mac.yml)
 =====================================================
 
 Prepare
