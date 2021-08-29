@@ -5,12 +5,14 @@ if [ "$UNAME" = Darwin ]; then
     brew update
     brew install gtk4
     # make gcc pkg-config
-# elif [ -f /etc/lsb-release ]; then
-#     # Ubuntu
-#      sudo apt-get update
-#      sudo apt-get install -y libgtk-4-dev pkg-config \
-#           xvfb make gcc
-# fi
+elif [ -f /etc/lsb-release ]; then
+    # Ubuntu 21.04
+    sudo apt-get update
+    sudo apt-get install -y libgtk-4-dev pkg-config \
+         make gcc
+    # install xvfb for testing
+    # sudo apt-get install xvfb
+
 # elif [ -f /etc/redhat-release ] && grep "release 7" /etc/redhat-release; then
 #     sudo yum install -y gcc gobject-introspection-devel \
 #          pkg-config gtk3 make
