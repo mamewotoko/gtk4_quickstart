@@ -26,4 +26,5 @@ Run
 
 ----
 Takashi Masuyama < mamewotoko@gmail.com >
+
 http://mamewo.ddo.jp/
