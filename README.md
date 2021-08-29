@@ -24,6 +24,11 @@ Run
 ./main
 ```
 
+References
+------------
+
+* [The GTK Project - A free and open-source cross-platform widget toolkit](https://www.gtk.org/)
+
 ----
 Takashi Masuyama < mamewotoko@gmail.com >
 
