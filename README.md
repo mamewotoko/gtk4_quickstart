@@ -4,7 +4,7 @@ GTK4 quickstart [![CI on Mac](https://github.com/mamewotoko/gtk4_quickstart/acti
 Prepare
 -------
 
-install GTK
+install GTK4
 
 ```bash
 ./setup.sh
