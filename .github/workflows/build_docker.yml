@@ -1,0 +1,15 @@
+name: CI on Docker
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: start
+        run: |
+          docker-compose build
+          docker-compose run gtk4

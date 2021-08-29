@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  gtk4:
+    build:
+      context: docker
+    volumes:
+      - ./:/app
+    command: "make clean all"
