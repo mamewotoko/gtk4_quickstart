@@ -29,19 +29,16 @@ before_install:
         export PATH=/C/tools/msys64/mingw64/bin:$PATH
         # export MAKE=mingw32-make  # so that Autotools can find it
         ;;
-    esac  
+    esac
     bash -x setup.sh
 script:
 - |-
-    pkg-config --cflags --libs gtk+-3.0 
     case $TRAVIS_OS_NAME in
     linux)
       make
       ;;
     osx)
       pkg-config --variable pc_path pkg-config
-      find /usr -name gtk+-3.0.pc
-      brew ls -v gtk+-3
       PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/ make
       ;;
     windows)
@@ -51,6 +48,6 @@ script:
     esac
 os:
   - linux
-  - osx
+#  - osx
   - windows
 osx_image: xcode11
