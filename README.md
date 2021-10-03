@@ -1,4 +1,4 @@
-GTK4 quickstart [![CI on Mac](https://github.com/mamewotoko/gtk4_quickstart/actions/workflows/build_mac.yml/badge.svg)](https://github.com/mamewotoko/gtk4_quickstart/actions/workflows/build_mac.yml) [![CI on Docker(ubuntu 21.04)](https://github.com/mamewotoko/gtk4_quickstart/actions/workflows/build_docker.yml/badge.svg)](https://github.com/mamewotoko/gtk4_quickstart/actions/workflows/build_docker.yml)
+GTK4 quickstart [![CI on Mac](https://github.com/mamewotoko/gtk4_quickstart/actions/workflows/build_mac.yml/badge.svg)](https://github.com/mamewotoko/gtk4_quickstart/actions/workflows/build_mac.yml) [![CI on Docker(ubuntu 21.04)](https://github.com/mamewotoko/gtk4_quickstart/actions/workflows/build_docker.yml/badge.svg)](https://github.com/mamewotoko/gtk4_quickstart/actions/workflows/build_docker.yml) [![build on windows](https://github.com/mamewotoko/gtk4_quickstart/actions/workflows/build_win.yml/badge.svg)](https://github.com/mamewotoko/gtk4_quickstart/actions/workflows/build_win.yml)
 =====================================================
 
 Prepare
