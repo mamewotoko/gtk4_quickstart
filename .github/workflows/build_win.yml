@@ -1,0 +1,18 @@
+name: build on windows
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: msys2/setup-msys2@v2
+    - shell: msys2 {0}
+      run: |
+        ./setup.sh
+        export PKG_CONFIG_PATH="/mingw64/lib/pkgconfig:$PKG_CONFIG"
+        # msys2 make
+        mingw32-make
+        # check
+        ls -l main

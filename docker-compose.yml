@@ -4,6 +4,9 @@ services:
   gtk4:
     build:
       context: docker
+    # environment:
+    #   - DISPLAY
+    # network_mode: host
     volumes:
       - ./:/app
     command: "make clean all"
